@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bookworm
+FROM python:3.13.3-slim-bookworm
 
 ENV GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no"
 
